@@ -1,23 +1,19 @@
-🔥اپدیت پنل Vodiwalker بالاخره منتشر شد! 🚀
+# Vodiwalker Panel
 
-یک پنل قدرتمند، سریع و حرفه‌ای برای مدیریت سرویس‌ها و کانفیگ‌ها، با طراحی مدرن و امکانات کاربردی.
-💎 پنل کاملاً رایگان در اختیار شماست و برای استفاده ازش نیازی به پرداخت هزینه ندارید.
+A Python-based panel project with networking/proxy-related modules and a Telegram bot component.
 
-⚡ پشتیبانی از پروتکل‌های xhttpو TCP و WS
-🚀 سرعت و پایداری بالا
-🔐 امنیت و مدیریت آسان
-💻 سازگار با سیستم‌ها و دستگاه‌های مختلف
-ربات مدیرتی حرفه ای دارای مینی اپ حرفه ای
+## Project Contents
+The repository includes the main application, protocol/relay modules, a Telegram bot, deployment configuration, and an example environment file.
 
+## Setup
+1. Use a supported Python version for the dependencies in `requirements.txt`.
+2. Create and activate a virtual environment.
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Review `env.example`, create a local environment configuration, and supply your own secrets.
+5. Follow the deployment configuration for the target hosting platform.
 
-🎥 
-توی آموزش دادم، نحوه نصب، راه‌اندازی و استفاده از پنل رو قدم‌به‌قدم توضیح دادم پس لطفاً ویدیو رو تا انتها تماشا کنید 💙
-
-❤️ اگر این پروژه براتون مفید بود، لطفاً حمایت کنید؛ لایک، سابسکرایب و کامنت شما باعث میشه با انگیزه بیشتری پروژه‌های رایگان و آموزش‌های جدید منتشر کنم.
-
-🔥 Vodiwalkerقدرتمند، حرفه‌ای و کاملاً رایگان
-
-کانال تلگرام : 
-https://t.me/vodiwalkervpn03
-گیت هاب :
-https://github.com/Vodiwalker
+## Security
+Do not commit real tokens, passwords, private connection details, or production configuration. Keep the example environment file free of secrets.
